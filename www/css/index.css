@@ -97,6 +97,17 @@ h1 {
     display:none;
 }
 
+.task_form {
+    background-color:#ffffff;
+    display:none;
+}
+
+.task_input {
+    font-size:24px;
+    background-color:#ffffff;
+    display:none;
+}
+
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }

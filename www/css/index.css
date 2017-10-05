@@ -49,13 +49,13 @@ body {
 .app {
     background:url(../img/logo.jpg) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:10%;
+    left:30%;
     top:10%;
     height:400px;                   /* text area height */
     width:400px;                   /* text area width */
     text-align:center;
-    padding:200px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin: 0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
+    padding:250px 100px 0px 100px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: 50px 0px 50px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 

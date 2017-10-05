@@ -24,7 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#FF99FF;
+    background-color:#FFCCFF;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -37,7 +37,7 @@ body {
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:24px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -88,7 +88,7 @@ h1 {
 }
 
 .event.listening {
-    background-color:#333333;
+    background-color:#ff4d4d;
     display:block;
 }
 
@@ -110,6 +110,6 @@ h1 {
 }
  
 .blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+    animation:fade 1000ms infinite;
+    -webkit-animation:fade 1000ms infinite;
 }

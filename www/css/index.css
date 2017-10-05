@@ -51,10 +51,10 @@ body {
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
-    height:100px;                   /* text area height */
-    width:250px;                   /* text area width */
+    height:150px;                   /* text area height */
+    width:400px;                   /* text area width */
     text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    padding:200px 100px 0px 100px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
@@ -71,7 +71,7 @@ body {
 
 h1 {
     font-size:72px;
-    font-weight:normal;
+    font-weight:bold;
     margin:0px;
     overflow:visible;
     padding:0px;
@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-    font-size:64px;
+    font-size:48px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -91,7 +91,7 @@ h2 {
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
-    font-size:36px;
+    font-size:30px;
     margin:0px 30px;
     padding:2px 0px;
 }

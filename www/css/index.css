@@ -31,7 +31,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.jpg) no-repeat center top; /* 432px x 432px */
+    background:url(../img/logo.png) no-repeat center top; /* 432px x 432px */
     position:absolute;             /* position in the center of the screen */
     left:30%;                      /* positioned 30% from the left */
     top:10%;                       /* positioned 10% from the top */
